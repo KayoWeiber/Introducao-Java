@@ -1,10 +1,25 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+
+// public -> acessivel de qualquer lugar
+// private -> acessivel apenas dentro da classe
+//default -> quando não defino nada, acessivel apenas dentro do pacote
+// protected -> acessivel dentro do pacote e em subclasses
 public class Main {
 
-
     public static void main(String[] args) {
+        Carro meuCarro = new sandero();
+        Carro meuCarro2 = new mobi();
+
+        meuCarro2.acelerar();meuCarro2.acelerar();meuCarro2.acelerar();meuCarro2.acelerar();meuCarro2.acelerar();meuCarro2.acelerar();
+        meuCarro2.acelerar();
+        SerVivo meuSerVivo = new Humano();
+        meuSerVivo.respirar();
+
+
+    }
+    public static void sintese(String[] args) {
         System.out.println("Hello World!");
         byte b=100;
         short s=10000;
@@ -83,4 +98,8 @@ public class Main {
         String MinhaString = String.valueOf(meuInt);
 
     }
+
+
+
+
 }
