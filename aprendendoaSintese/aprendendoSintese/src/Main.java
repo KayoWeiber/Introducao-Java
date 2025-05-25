@@ -16,7 +16,12 @@ public class Main {
         meuCarro2.acelerar();
         SerVivo meuSerVivo = new Humano();
         meuSerVivo.respirar();
-
+        Carro meuCarro3 = null;
+        try{
+            meuCarro3.acelerar();
+        }catch (NullPointerException exception){
+            System.out.println("Carro nulo");
+        }
 
     }
     public static void sintese(String[] args) {
