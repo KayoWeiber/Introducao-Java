@@ -27,7 +27,6 @@ Aqui, você encontra:
 7. **Classes e Objetos**
 8. **Herança, Polimorfismo e Encapsulamento**
 9. **Tratamento de Exceções**
-10. **Exercícios e Desafios**
 
 ---
 
